@@ -13,9 +13,11 @@ public class PetrolBill {
     }
 
 
+    /*26,2,9,14,19,23*/
+
     public static void main(String args[]){
         PetrolBill object = new PetrolBill();
-        double priceList[]= {68.62,69.05,69.75,69.77,69.56,69.36 };
+        double priceList[]= {72.44,72.13,72.03 ,72.16 ,72.34 ,72.98};
         for (double price : priceList )
             object.getLitres(price);
     }
