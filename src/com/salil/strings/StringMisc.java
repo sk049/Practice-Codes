@@ -7,11 +7,12 @@ public class StringMisc {
 
     public static void main (String [] args){
 
-        String b = "lil";
+        /*String b = "lil";
         String a = "Sa";
         String c = "Salil";
         String con = a.concat(b);
         String d = "Salil";
+
         System.out.println(d==a.concat(b));
         System.out.println(a.concat(b));
         System.out.println(d.equals(a.concat(b)));
@@ -27,8 +28,22 @@ public class StringMisc {
         System.out.println("Regex with Limit");
         for(String iterator : a2){
             System.out.println(iterator);
-        }
+        }*/
 
+
+        String empId = "B0097044";
+
+        if(empId.toUpperCase().startsWith("B"))
+        {
+            empId=empId.substring(1);
+            empId=empId.replaceFirst("^0+(?!$)", "");
+        }
+        System.out.println("After Regex operation : "+ empId);
     }
+
+
+
+
+
 
 }

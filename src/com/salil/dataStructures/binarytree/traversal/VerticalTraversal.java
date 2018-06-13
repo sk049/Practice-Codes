@@ -49,14 +49,11 @@ public class VerticalTraversal {
         for(Map.Entry<Integer,Vector<Integer>> entry : verticalOrderMap.entrySet()){
             System.out.println(entry.getValue());
         }
-
-
     }
 
     public static void main(String args[])
     {
         VerticalTraversal tree = new VerticalTraversal();
-
         /* Let us construct the tree shown in above diagram */
         tree.root = new Node(1);
         tree.root.left = new Node(2);

@@ -49,11 +49,7 @@ public class SpecificLevelOrder {
                     j--;
                 }
             }
-
             System.out.println();
-
-            //System.out.println(mid);
-
         }
     }
 

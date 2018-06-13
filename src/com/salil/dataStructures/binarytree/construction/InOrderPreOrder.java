@@ -17,8 +17,11 @@ public class InOrderPreOrder {
         {
             data = item;
             left = right = null;
+
         }
     }
+
+
 
     public int searchInInOrder(char in[],int start,int end,char value){
         int i;
@@ -51,6 +54,9 @@ public class InOrderPreOrder {
         printInorder(node.left);
         System.out.print(node.data + " ");
         printInorder(node.right);
+
+
+
     }
 
     // driver program to test above functions
